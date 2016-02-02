@@ -1,0 +1,17 @@
+#Password
+password: password
+server:
+  applicationConnectors:
+      - type: http
+        port: 8080
+      - type: https
+        port: 8443
+        keyStorePath: dropbookmarks.keystore
+        keyStorePassword: password
+        validateCerts: false
+
+database:
+  driverClass: com.mysql.jdbc.driver
+  user: root
+  password:
+  url: jdbc:mysql://localhost:3306/Dropbookmarks

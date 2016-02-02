@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.liquibase.org/xml/ns/dbchangelog/1.7" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="databaseChangeLog" type="ns:databaseChangeLogType" xmlns:ns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"/>
+  <xs:complexType name="contraintsType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="primaryKey" use="optional"/>
+        <xs:attribute type="xs:string" name="nullable" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="createTableType">
+    <xs:sequence>
+      <xs:element type="ns:columnType" name="column" maxOccurs="unbounded" minOccurs="0" xmlns:ns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="tableName"/>
+  </xs:complexType>
+  <xs:complexType name="changeSetType">
+    <xs:sequence>
+      <xs:element type="ns:createTableType" name="createTable" xmlns:ns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"/>
+      <xs:element type="xs:string" name="comment"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id"/>
+    <xs:attribute type="xs:string" name="author"/>
+  </xs:complexType>
+  <xs:complexType name="databaseChangeLogType">
+    <xs:sequence>
+      <xs:element type="ns:changeSetType" name="changeSet" xmlns:ns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="columnType">
+    <xs:sequence>
+      <xs:element type="ns:contraintsType" name="contraints" xmlns:ns="http://www.liquibase.org/xml/ns/dbchangelog/1.7"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="name" use="optional"/>
+    <xs:attribute type="xs:string" name="type" use="optional"/>
+  </xs:complexType>
+</xs:schema>
