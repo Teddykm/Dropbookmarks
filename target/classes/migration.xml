@@ -2,20 +2,62 @@
 
 <databaseChangeLog      xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
-                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog.xsd">
+                        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+                        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <preConditions>
+        <runningAs username="root"/>
+    </preConditions>
+
     <changeSet id="1" author="dima">
         <createTable tableName="users">
             <column name="id" type="bigint" autoIncrement="true">
-                <contraints primaryKey="true" nullable="false"/>
+                <constraints primaryKey="true" nullable="false"/>
             </column>
-            <column name="username" type="varchar(255)">
-                <contraints nullable="false" />
-            </column>
+            <column name="username" type="varchar(255)"/>
             <column name="password" type="varchar(255)">
-                <contraints nullable="false"/>
+                <constraints nullable="false" />
             </column>
         </createTable>
         <comment>A script to create users table</comment>
     </changeSet>
+
+    <changeSet id="2" author="dima">
+        <createTable tableName="bookmarks">
+            <column name="id" type="bigint" autoIncrement="true">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="name" type="varchar(255)"/>
+            <column name="url" type="varchar(255)">
+                <constraints nullable="false" />
+            </column>
+            <column name="description" type="varchar(2048)"/>
+            <column name="user_id" type="bigint">
+                <constraints nullable="false"
+                             foreignKeyName="fk_users_id"
+                             referencedTableName="users"
+                             referencedColumnNames="id"/>
+            </column>
+
+        </createTable>
+        <comment>A script to create bookmarks table</comment>
+    </changeSet>
+
+    <changeSet id="3" author="dima" context="DEV">
+        <insert tableName="users">
+            <column name="id" value="1"/>
+            <column name="username" value="udemy"/>
+            <column name="password" value="password"/>
+        </insert>
+            <rollback>
+                <delete tableName="users">
+                    <where>
+                        id=1
+                    </where>
+                </delete>
+            </rollback>
+
+    </changeSet>
+
+
 </databaseChangeLog>
