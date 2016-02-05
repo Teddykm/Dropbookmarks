@@ -6,6 +6,8 @@ import com.udemy.dropbookmarks.auth.HelloAuthenticator;
 import io.dropwizard.Application;
 import io.dropwizard.auth.AuthFactory;
 import io.dropwizard.auth.basic.BasicAuthFactory;
+import io.dropwizard.db.DataSourceFactory;
+import io.dropwizard.migrations.MigrationsBundle;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
@@ -22,7 +24,13 @@ public class DropBookmarksApplication extends Application<DropBookmarksConfigura
 
     @Override
     public void initialize(final Bootstrap<DropBookmarksConfiguration> bootstrap) {
-        // TODO: application initialization
+        bootstrap.addBundle(new MigrationsBundle<DropBookmarksConfiguration>() {
+
+            @Override
+            public DataSourceFactory getDataSourceFactory(DropBookmarksConfiguration configuration) {
+                return configuration.getDataSourceFactory();
+            }
+        });
     }
 
     @Override
