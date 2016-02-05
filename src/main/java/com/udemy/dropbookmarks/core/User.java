@@ -3,11 +3,21 @@ package com.udemy.dropbookmarks.core;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "users")
+@NamedQueries({
+        @NamedQuery(name = "com.udemy.dropbookmarks.core.User.findAll",
+                query = "select u from User u"),
+        @NamedQuery(name = "com.udemy.dropbookmarks.core.User.findByUsernamePassword",
+                query = "select u from User u"
+                        + "where u.username = :username"
+                        + "where u.password = :password")
+})
+
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private long id;
 
     private String username;
