@@ -8,9 +8,9 @@ import javax.persistence.*;
         @NamedQuery(name = "com.udemy.dropbookmarks.core.User.findAll",
                 query = "select u from User u"),
         @NamedQuery(name = "com.udemy.dropbookmarks.core.User.findByUsernamePassword",
-                query = "select u from User u"
-                        + "where u.username = :username"
-                        + "where u.password = :password")
+                query = "select u from User u "
+                        + "where u.username = :username "
+                        + "and u.password = :password")
 })
 
 public class User {
