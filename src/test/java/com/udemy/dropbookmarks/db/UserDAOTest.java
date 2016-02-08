@@ -1,7 +1,7 @@
 
 package com.udemy.dropbookmarks.db;
 
-import com.google.common.base.Optional;
+
 import com.udemy.dropbookmarks.core.User;
 import liquibase.Liquibase;
 import liquibase.database.Database;
@@ -22,6 +22,7 @@ import org.junit.*;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.Assert.*;
 
@@ -120,6 +121,10 @@ public class UserDAOTest {
             tx = session.beginTransaction();
 
             //Do something here with UserDAO
+            session.createSQLQuery("insert into users values(null, :username, :password)")
+                    .setString("username", expectedUsername)
+                    .setString("password", expectedPassword)
+                    .executeUpdate();
 
             tx.commit();
         } catch (Exception e) {
@@ -142,6 +147,7 @@ public class UserDAOTest {
             tx = session.beginTransaction();
 
             //Do something here with UserDAO
+            user = dao.findByUserPassword(expectedUsername, expectedPassword);
 
             tx.commit();
         } catch (Exception e) {
@@ -153,6 +159,12 @@ public class UserDAOTest {
             ManagedSessionContext.unbind(SESSION_FACTORY);
             session.close();
         }
+
+        assertNotNull(user);
+        assertTrue(user.isPresent());
+        assertEquals(expectedUsername, user.get().getUsername());
+
+
 
     }
 
