@@ -1,5 +1,6 @@
 package com.udemy.dropbookmarks;
 
+import com.udemy.dropbookmarks.auth.DBAuthenticator;
 import com.udemy.dropbookmarks.core.User;
 import com.udemy.dropbookmarks.db.UserDAO;
 import com.udemy.dropbookmarks.resources.HelloResource;
@@ -55,7 +56,7 @@ public class DropBookmarksApplication extends Application<DropBookmarksConfigura
         environment.jersey().register(
                 AuthFactory.binder(
                         new BasicAuthFactory<>(
-                                new HelloAuthenticator(configuration.getPassword()),
+                                new DBAuthenticator(userDAO),
                                 "SECURITY REALM",
                                 User.class
                         )

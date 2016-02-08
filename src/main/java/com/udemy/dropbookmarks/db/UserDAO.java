@@ -1,11 +1,12 @@
 package com.udemy.dropbookmarks.db;
 
+import com.google.common.base.Optional;
 import com.udemy.dropbookmarks.core.User;
 import io.dropwizard.hibernate.AbstractDAO;
 import org.hibernate.SessionFactory;
 
 import java.util.List;
-import java.util.Optional;
+
 
 
 public class UserDAO extends AbstractDAO<User>{
@@ -19,7 +20,7 @@ public class UserDAO extends AbstractDAO<User>{
     }
 
     public Optional<User> findByUserPassword(String username, String password) {
-        return Optional.ofNullable(uniqueResult(namedQuery("com.udemy.dropbookmarks.core.User.findByUsernamePassword")
+        return Optional.fromNullable(uniqueResult(namedQuery("com.udemy.dropbookmarks.core.User.findByUsernamePassword")
                 .setParameter("username", username)
                 .setParameter("password", password)));
 

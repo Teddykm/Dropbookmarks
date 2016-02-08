@@ -1,7 +1,6 @@
 package com.udemy.dropbookmarks.auth;
 
 import com.google.common.base.Optional;
-import com.sun.javafx.scene.control.behavior.PasswordFieldBehavior;
 import com.udemy.dropbookmarks.core.User;
 import io.dropwizard.auth.AuthenticationException;
 import io.dropwizard.auth.Authenticator;

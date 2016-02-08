@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c65d7fe2-96b5-48ab-8b0f-a51cad6d7e5d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DropBookmarks.iml" afterPath="$PROJECT_DIR$/DropBookmarks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/core/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/core/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/migrations.xml" afterPath="$PROJECT_DIR$/src/main/resources/migrations.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/DBAuthenticator.java" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/DBAuthenticator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/db/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/db/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java" />
     </list>
     <ignored path="DropBookmarks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,90 +33,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.083333">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloResourceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/resources/HelloResourceTest.java">
+      <file leaf-file-name="DropBookmarksConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="73" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/core/User.java">
+      <file leaf-file-name="HelloAuthenticator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseChangeLog.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.3.2/liquibase-core-3.3.2.jar!/liquibase/changelog/DatabaseChangeLog.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4444444">
-              <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/HibernateUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar!/org/hibernate/cfg/Configuration.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.574074">
-              <caret line="1472" column="51" selection-start-line="1472" selection-start-column="51" selection-end-line="1472" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#12265#12266#0" expanded="true" />
-                <element signature="e#12308#12309#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="migrations.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4585153">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceRegistry.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar!/org/hibernate/service/ServiceRegistry.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -126,13 +59,48 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/db/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migrations.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="15.0">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DropBookmarksApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+              <folding>
+                <element signature="e#822#850#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,10 +110,41 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+              <caret line="149" column="41" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
               <folding>
-                <element signature="e#1980#1981#0" expanded="true" />
-                <element signature="e#2019#2020#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBAuthenticator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/DBAuthenticator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,8 +157,8 @@
       <list>
         <option value="Unnamed" />
         <option value="XSLT Stylesheet" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -175,23 +174,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/resources/HelloResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/AuthIntegrationTest.java" />
         <option value="$PROJECT_DIR$/target/classes/migration.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/migration.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksConfiguration.java" />
         <option value="$PROJECT_DIR$/config.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/db/UserDAO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/core/User.java" />
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/migrations.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/db/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/DBAuthenticator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java" />
       </list>
     </option>
   </component>
@@ -236,9 +236,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="707" />
+    <option name="x" value="-346" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -315,32 +316,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DropBookmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DropBookmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -357,10 +332,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,7 +387,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DropBookmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DropBookmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dropbookmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,7 +451,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDAOTest.testFindAll">
+  <component name="RunManager" selected="Application.DropBookmarks">
     <configuration default="false" name="HelloResourceTest.testGetGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -464,32 +465,6 @@
       <option name="PACKAGE_NAME" value="com.udemy.dropbookmarks.resources" />
       <option name="MAIN_CLASS_NAME" value="com.udemy.dropbookmarks.resources.HelloResourceTest" />
       <option name="METHOD_NAME" value="testGetGreeting" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="HelloResourceTest.testGetSecuredGreeting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.udemy.dropbookmarks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="DropBookmarks" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.udemy.dropbookmarks.resources" />
-      <option name="MAIN_CLASS_NAME" value="com.udemy.dropbookmarks.resources.HelloResourceTest" />
-      <option name="METHOD_NAME" value="testGetSecuredGreeting" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -568,6 +543,32 @@
       <option name="PACKAGE_NAME" value="com.udemy.dropbookmarks.db" />
       <option name="MAIN_CLASS_NAME" value="com.udemy.dropbookmarks.db.UserDAOTest" />
       <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserDAOTest.testFindByUsernamePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.udemy.dropbookmarks.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="DropBookmarks" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.udemy.dropbookmarks.db" />
+      <option name="MAIN_CLASS_NAME" value="com.udemy.dropbookmarks.db.UserDAOTest" />
+      <option name="METHOD_NAME" value="testFindByUsernamePassword" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1061,18 +1062,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.DropBookmarks" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.HelloResourceTest.testGetGreeting" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HelloResourceTest.testGetSecuredGreeting" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testUnauthorisedPath" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testAuthorisedPath" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.UserDAOTest.testFindAll" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testUnauthorisedPath" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testAuthorisedPath" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UserDAOTest.testFindAll" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.UserDAOTest.testFindByUsernamePassword" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserDAOTest.testFindAll" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testAuthorisedPath" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testUnauthorisedPath" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HelloResourceTest.testGetGreeting" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HelloResourceTest.testGetSecuredGreeting" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserDAOTest.testFindByUsernamePassword" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UserDAOTest.testFindAll" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testAuthorisedPath" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AuthIntegrationTest.testUnauthorisedPath" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HelloResourceTest.testGetGreeting" />
       </list>
     </recent_temporary>
   </component>
@@ -1116,13 +1117,22 @@
       <option name="project" value="LOCAL" />
       <updated>1454701556397</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating a unit test to see if the queries return correct result&#10;- Deleted &lt;preconditions&gt; due errors and made changes to find user by password query">
+      <created>1454779471914</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1454779471914</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding hibernate support to the Application class">
+      <created>1454924687239</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1454924687239</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloResourceTest_testGetSecuredGreeting - 2016.01.21 at 08h 30m 03s.xml">
-      <configuration name="HelloResourceTest.testGetSecuredGreeting" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloResourceTest_testGetSecuredGreeting - 2016.01.21 at 08h 31m 58s.xml">
       <configuration name="HelloResourceTest.testGetSecuredGreeting" configurationId="JUnit" />
     </history-entry>
@@ -1150,24 +1160,27 @@
     <history-entry file="UserDAOTest_testFindAll - 2016.02.06 at 17h 19m 15s.xml">
       <configuration name="UserDAOTest.testFindAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserDAOTest_testFindByUsernamePassword - 2016.02.08 at 09h 20m 29s.xml">
+      <configuration name="UserDAOTest.testFindByUsernamePassword" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="707" extended-state="6" />
+    <frame x="-346" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767403" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22455573" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39898133" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5229202" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6162988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5228967" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61554843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4074703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25928918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17092651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20553781" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1221,14 +1234,16 @@
     <MESSAGE value="- Applying database refactorings using maven&#10;- Adding dropwizard liquibase support&#10;- Applying database refactorings using application'S cli&#10;- mapping classes to the database using Hibernate" />
     <MESSAGE value="- Writing queries to fetch data from database" />
     <MESSAGE value="- Adding a data access object DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Adding a data access object DAO" />
+    <MESSAGE value="Creating a unit test to see if the queries return correct result&#10;- Deleted &lt;preconditions&gt; due errors and made changes to find user by password query" />
+    <MESSAGE value="Adding hibernate support to the Application class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding hibernate support to the Application class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java</url>
-          <line>22</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -1242,55 +1257,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#558#559#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/core/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/resources/HelloResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1830#1831#0" expanded="false" />
-            <element signature="e#1893#1894#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1314,7 +1280,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding>
-            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1358,13 +1325,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34311512">
           <caret line="521" column="25" selection-start-line="521" selection-start-column="25" selection-end-line="521" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/AuthIntegrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1460,56 +1420,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#558#559#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-core/0.8.2/dropwizard-core-0.8.2-sources.jar!/io/dropwizard/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1528,14 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.425926">
           <caret line="24" column="47" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.888889">
-          <caret line="119" column="38" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1592,17 +1498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-          <folding>
-            <element signature="e#1980#1981#0" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1623,28 +1518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/db/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/core/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/3.3.2/liquibase-core-3.3.2.jar!/liquibase/changelog/DatabaseChangeLog.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4444444">
@@ -1661,10 +1534,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-auth/0.8.2/dropwizard-auth-0.8.2.jar!/io/dropwizard/auth/basic/BasicCredentials.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1111112">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/AuthIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/dropwizard/dropwizard-auth/0.8.2/dropwizard-auth-0.8.2.jar!/io/dropwizard/auth/Authenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/base/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.888889">
+          <caret line="81" column="71" selection-start-line="81" selection-start-column="67" selection-end-line="81" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/core/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/migrations.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4585153">
+        <state vertical-scroll-proportion="15.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/DBAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/auth/HelloAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <folding>
+            <element signature="e#822#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/DropBookmarksConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/resources/HelloResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/udemy/dropbookmarks/db/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/udemy/dropbookmarks/db/UserDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="149" column="41" selection-start-line="149" selection-start-column="41" selection-end-line="149" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

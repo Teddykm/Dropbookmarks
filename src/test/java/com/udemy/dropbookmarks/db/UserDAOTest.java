@@ -113,7 +113,7 @@ public class UserDAOTest {
         String expectedUsername = "user1";
         String expectedPassword = "pwd1";
 
-        Optional<User> user;
+        com.google.common.base.Optional<User> user;
 
         //First
         try {
