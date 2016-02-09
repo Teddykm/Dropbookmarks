@@ -1,6 +1,9 @@
 package com.udemy.dropbookmarks.core;
 
+
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -24,8 +27,23 @@ public class User {
 
     private String password;
 
+
+    @OneToMany(mappedBy = "user")
+    private List<Bookmark> bookmarks = new ArrayList<>();
+
     public User(){}
 
+    public List<Bookmark> getBookmarks() {
+        return bookmarks;
+    }
+
+    public void setBookmarks(List<Bookmark> bookmarks) {
+        this.bookmarks = bookmarks;
+    }
+
+    public User(List<Bookmark> bookmarks) {
+        this.bookmarks = bookmarks;
+    }
     public User (String username, String password){
         this.username = username;
         this.password = password;

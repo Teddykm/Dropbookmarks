@@ -16,7 +16,7 @@ public class DBAuthenticator implements Authenticator<BasicCredentials, User> {
     public DBAuthenticator(UserDAO userDAO) { this.userDAO = userDAO; }
 
     @Override
-    public Optional<User> authenticate(BasicCredentials credentials) throwws AuthenticationException {
+    public Optional<User> authenticate(BasicCredentials credentials) throws AuthenticationException {
         return userDAO.findByUserPassword(
                 credentials.getUsername(),
                 credentials.getPassword());

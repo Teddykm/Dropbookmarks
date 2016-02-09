@@ -1,13 +1,13 @@
 package com.udemy.dropbookmarks;
 
 
+import io.dropwizard.Application;
+import io.dropwizard.testing.ResourceHelpers;
 import io.dropwizard.testing.junit.DropwizardAppRule;
+import io.dropwizard.testing.junit.ResourceTestRule;
 import org.glassfish.jersey.SslConfigurator;
 import org.glassfish.jersey.client.authentication.HttpAuthenticationFeature;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.ClassRule;
-import org.junit.Test;
+import org.junit.*;
 
 import javax.net.ssl.SSLContext;
 import javax.ws.rs.client.Client;
@@ -20,7 +20,7 @@ import static org.junit.Assert.assertEquals;
 public class AuthIntegrationTest {
 
     private static final String CONFIG_PATH
-            = "config.yml";
+            = ResourceHelpers.resourceFilePath("test-config.yml");
 
     @ClassRule
     public static final DropwizardAppRule<DropBookmarksConfiguration> RULE
@@ -43,6 +43,13 @@ public class AuthIntegrationTest {
             = "password";
 
     private Client client;
+
+    @BeforeClass
+    public static void setUpClass() throws Exception {
+        Application<DropBookmarksConfiguration> application
+                = RULE.getApplication();
+        application.run("db", "migrate", "-i DEV", CONFIG_PATH);
+    }
 
     @Before
     public void setUp() {
