@@ -6,6 +6,14 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "bookmarks")
+@NamedQueries({
+        @NamedQuery(name = "com.udemy.dropbookmarks.core.findForUser",
+                    query = "select b from Bookmark b "
+                    + "where b.user.id = :id"),
+        @NamedQuery(name = "com.udemy.dropbookmarks.core.remove",
+                    query =  "delete from Bookmark b "
+                    + "where b.id = :id")
+})
 public class Bookmark {
 
     @Id

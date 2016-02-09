@@ -47,12 +47,9 @@ public class DropBookmarksApplication extends Application<DropBookmarksConfigura
     }
 
     @Override
-    public void run(final DropBookmarksConfiguration configuration,
-                    final Environment environment) {
+    public void run(final DropBookmarksConfiguration configuration,final Environment environment) {
         final UserDAO userDAO = new UserDAO(hibernateBundle.getSessionFactory());
-        environment.jersey().register(
-                new HelloResource()
-        );
+        environment.jersey().register(new HelloResource());
         environment.jersey().register(
                 AuthFactory.binder(
                         new BasicAuthFactory<>(
